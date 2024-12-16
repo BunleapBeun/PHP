@@ -11,7 +11,7 @@ $txt = ' variable';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 2 - <?php echo $txt; ?></title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./../style.css">
 </head>
 
 <body>

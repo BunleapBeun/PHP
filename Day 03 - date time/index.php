@@ -16,7 +16,7 @@ date_default_timezone_set("Asia/Phnom_Penh");
         <?php
         echo date("D, M, Y");
         echo '<br>';
-        echo date('h:i:s A');
+        echo date('h:i:sA');
         ?>
     </h1>
 
@@ -32,6 +32,7 @@ date_default_timezone_set("Asia/Phnom_Penh");
     <?php
         $x++;
     }
+    
     ?>
 </body>
 
