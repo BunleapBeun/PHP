@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 05 - associative arr, multi arr, foreach, break, continue </title>
+    <title>Day 05 - associative arr, multi arr, foreach, break, continue</title>
     <link rel="stylesheet" href="./../style.css">
 </head>
 
