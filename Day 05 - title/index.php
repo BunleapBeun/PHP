@@ -35,31 +35,41 @@
     <h1 class="head-sub">Break</h1>
     <h2>
         <?php
-            for ($i = 0; $i <= 5; $i++) {
-                if ($i == 3) {
-                    break;
-                }
-                echo $i. '<br>';
+        for ($i = 0; $i <= 5; $i++) {
+            if ($i == 3) {
+                break;
             }
+            echo $i . '<br>';
+        }
         ?>
     </h2>
 
     <h1 class="head-sub">Continue</h1>
     <h2>
         <?php
-            for ($i = 0; $i <= 5; $i++) {
-                if ($i == 3) {
-                    continue;
-                }
-                echo $i. '<br>';
+        for ($i = 0; $i <= 5; $i++) {
+            if ($i == 3) {
+                continue;
             }
+            echo $i . '<br>';
+        }
         ?>
     </h2>
 
     <h1 class="head-sub">Multidimensional Array</h1>
-    
 
+    <?php
+    // multidimensional array as associative array
+    $students = array(
+        array('name' => 'John', 'age' => 20, 'grade' => 'A'),
+        array('name' => 'Jane', 'age' => 18, 'grade' => 'B'),
+        array('name' => 'Bob', 'age' => 19, 'grade' => 'C'),
+    );
 
+    foreach ($students as $key => $val) {
+        echo $val['name'] . ' ' . $val['age'] . ' ' . $val['grade'] . '<br>';
+    }
+    ?>
 </body>
 
 </html>
