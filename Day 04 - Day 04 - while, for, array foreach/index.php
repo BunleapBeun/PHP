@@ -44,12 +44,12 @@
     <h1 class="head-sub">Array and foreach</h1>
 
     <?php
-
+    // this array we call index array
     $color = array('red', 'green', 'blue', 'yellow');
 
     // echo $color;// can not use with echo
 
-    // print_r($color);
+    // print_r($color); // user for print value of array
 
     foreach ($color as $value) {
     ?>

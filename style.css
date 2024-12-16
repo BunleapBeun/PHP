@@ -8,11 +8,16 @@ body {
   width: 100px;
   height: 100px;
   border-radius: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .box1 {
-  width: 100px;
-  height: 100px;
+  /* width: 100px; */
+  /* height: 100px; */
   background-color: rgb(41, 0, 46);
   color: #fff;
   font-size: 30px;
@@ -21,6 +26,9 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 30px;
+  flex-direction: column;
+  padding: 10px;
+  margin: 30px 10px;
 }
 
 .box2 {
