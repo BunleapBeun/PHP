@@ -56,6 +56,8 @@ body {
   position: fixed;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
+  float: left;
+  margin-top: 200px;
 }
 
 .left-menu ul {
@@ -97,4 +99,13 @@ body {
 .left-menu ul li a i {
   font-size: 25px;
   color: #333;
+}
+
+.container {
+  width: 90%;
+  float: right;
+}
+
+.image-array {
+  width: 200px;
 }
