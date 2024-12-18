@@ -27,13 +27,12 @@ $con = new mysqli("localhost", "root", 'Bl123456789', 'test_db');
     // }
 
     ?>
-    <table>
+    <table style="width: 50%;" border="1">
         <thead>
             <tr>
                 <th>ID</th>
                 <th>Name</th>
                 <th>Price</th>
-            </tr>
         </thead>
         <tbody>
             <?php
@@ -46,12 +45,9 @@ $con = new mysqli("localhost", "root", 'Bl123456789', 'test_db');
                     <td><?php echo $row[1] ?></td>
                     <td><?php echo $row[2] ?></td>
                 </tr>
-            <?php
-            }
-            ?>
+            <?php } ?>
         </tbody>
     </table>
-    ?>
 </body>
 
 </html>
